@@ -1,0 +1,12 @@
+import Conjuntos
+p=Conjuntos.Conjuntos()
+p2=Conjuntos.Conjuntos()
+p.adicionar('a')
+p.imprimir()
+p.adicionar('b')
+p.imprimir()
+print(p.medirTamanho())
+p2.adicionar('1')
+p.adicionar(p2)
+p2.imprimir()
+p.imprimir()
